@@ -12,6 +12,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - name: prepare-deps
+      run: apt install libfuse-devel
     - uses: actions/checkout@v3
     - name: configure
       run: ./configure
