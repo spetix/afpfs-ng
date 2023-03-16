@@ -13,7 +13,7 @@ jobs:
 
     steps:
     - name: prepare-deps
-      run: apt install libfuse-devel
+      run: sudo apt-get install -y libfuse-devel
     - uses: actions/checkout@v3
     - name: configure
       run: ./configure
