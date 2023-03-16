@@ -27,3 +27,12 @@ config.log
 config.status
 libtool
 
+.vscode/c_cpp_properties.json
+autom4te.cache/output.0t
+autom4te.cache/requests
+autom4te.cache/traces.0t
+fuse/afpfsd
+fuse/mount_afp
+cmdline/afpcmd
+cmdline/afpgetstatus
+stamp-h1
